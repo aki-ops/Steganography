@@ -1,0 +1,9 @@
+The program is used to test the possibility that an image is a stego image. The program uses mathematical knowledge with help from teacher "Tran Ngoc Khue".
+The program includes 2 main parts:
+test: folder containing images to test
+Chi - Square.py : main program file
+
+Instructions for running the code:
+1. Send image files to the test folder
+2. Adjust the degree of suspicion of the X^2 distribution line 51 (currently at 95%)
+3. Edit the image folder file (if necessary) in line 58

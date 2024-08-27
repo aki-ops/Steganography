@@ -1,0 +1,22 @@
+The program is used to hide and decode images using the spread spectrum method.
+The program includes 2 main parts:
+Embed message: embed a secret message in the photo
+Decode: decode the message from the stego image
+
+The directory includes 3 files:
+spread spectrum.py: Main program file, responsible for embedding and decoding messages
+message.txt: folder containing the message to embed (in binary form)
+decrypted_message.txt : folder containing the secret message after the image is decrypted
+
+
+Instructions for running the code:
+1. Embed secret message
+- Write a secret message into the message.txt file
+- Go to file spread spectrum.py and edit
+- Edit the path to the image (line 17)
+- Run and the program will produce a stego image file (stego_image)
+
+2. Decode the message
+- Edit the path to the stego image (line 61)
+- Enter message length (line 66)
+- Run the code and the program will display the message embedded in the decrypted_message.txt file

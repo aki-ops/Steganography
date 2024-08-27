@@ -1,0 +1,20 @@
+﻿The program is used to hide and decrypt images using the LSB method.
+The program includes 2 main parts:
+Embed message: embed a secret message in the photo
+Decode: decode the message from the stego image
+
+Before running, you need to install 2 nuget packages: ColorMine, System.Drawing.Common
+
+Instructions for running the code:
+1. Embed secret message
+- Write the message to embed in the Import.txt file
+- Go to program.cs file and edit
+- Edit path to photo (line 84)
+- Edit the path to the Import.txt file containing the message to embed (line 110)
+- Run and the program will produce a stego image file (stego_image)
+
+2. Decode the message
+- Go to program.cs file and edit
+- Edit path to stego image (line 173)
+- Edit the path to the Export.txt file where the decrypted message will be contained (line 199)
+- Run the code and the program will display a message embedded in the Export.txt file
